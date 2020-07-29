@@ -66,14 +66,4 @@ def search_data(BookTitle="", DateReleased="", Author="", Language="", Pages="",
     return rows
 
 
-#def update_data(id, BookTitle="", DateReleased="", Author="", Language="", Pages="", Status=""):
-#   """Updates book record."""
-#  con = sqlite3.connect("my_library.db")
-# c = con.cursor()
-#c.execute("UPDATE books SET BookTitle=?, DateReleased=?, Author=?, Language=?, Pages=?, Status=? WHERE id=?",
-#         (BookTitle, DateReleased, Author, Language, Pages, Status, id))
-#con.commit()
-#con.close()
-
-
 book_data()
